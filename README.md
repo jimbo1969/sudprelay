@@ -19,7 +19,7 @@ Install on Linux:
 Install on Windows:
 1) Install CMake
 2) Clone or download the zip for this repo git clone https://github.com/jimbo1969/sudprelay.git
-3) >cmake-gui
+3) \>cmake-gui
 4) Choose source folder & build folders
 5) Configure, Generate, Open Project --> Project opens in Visual Studio
 6) Compile in Visual Studio
