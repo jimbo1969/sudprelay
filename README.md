@@ -11,15 +11,15 @@ It runs on Windows or Linux.
 Install on Linux:
 1) Install CMake
 2) Clone or download the zip for this repo git clone https://github.com/jimbo1969/sudprelay.git
-3) cd sudprelay
-4) cmake .
-5) make
-6) make install
+3) $ cd sudprelay
+4) $ cmake .
+5) $ make
+6) $ sudo make install
 
 Install on Windows:
 1) Install CMake
 2) Clone or download the zip for this repo git clone https://github.com/jimbo1969/sudprelay.git
-3) cmake-gui
+3) > cmake-gui
 4) Choose source folder & build folders
 5) Configure, Generate, Open Project --> Project opens in Visual Studio
 6) Compile in Visual Studio
@@ -36,7 +36,7 @@ This version will do multicast, using two new options:
 -T specifies a TTL to use for outgoing multicast packets (sent via interface specified by -B)
 
 Example Relay Use:
-sudprelay.exe -b [LOCAL_LISTEN_IP] -m [MULTICAST_GRP_LISTEN] -B [LOCAL_SENDING_IP] -T [MULTICAST_TTL] [TARGET_IP] [TARGET_PORT] [LISTEN_PORT]
+$ sudprelay.exe -b [LOCAL_LISTEN_IP] -m [MULTICAST_GRP_LISTEN] -B [LOCAL_SENDING_IP] -T [MULTICAST_TTL] [TARGET_IP] [TARGET_PORT] [LISTEN_PORT]
 where:
 [LOCAL_LISTEN_IP] = the IPv4 address (e.g. 192.168.0.15) of the interface to use to listen for UDP
 [MULTICAST_GRP_LISTEN] = the IPv4 multicast group (e.g. 235.0.0.5) to join on the listening interface
