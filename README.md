@@ -9,17 +9,17 @@ evidently were handled automagically by MinGW (Luigi's sudppipe compiling enviro
 It runs on Windows or Linux.
 
 Install on Linux:
-1) Install CMake
-2) Clone or download the zip for this repo git clone https://github.com/jimbo1969/sudprelay.git
+1) Install CMake & git
+2) $ git clone https://github.com/jimbo1969/sudprelay.git
 3) $ cd sudprelay
 4) $ cmake .
 5) $ make
 6) $ sudo make install
 
 Install on Windows:
-1) Install CMake
-2) Clone or download the zip for this repo git clone https://github.com/jimbo1969/sudprelay.git
-3) \>cmake-gui
+1) Install CMake & git
+2) \> git clone https://github.com/jimbo1969/sudprelay.git
+3) \> cmake-gui
 4) Choose source folder & build folders
 5) Configure, Generate, Open Project --> Project opens in Visual Studio
 6) Compile in Visual Studio
